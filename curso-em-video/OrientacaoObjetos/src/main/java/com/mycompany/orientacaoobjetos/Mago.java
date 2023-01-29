@@ -14,6 +14,7 @@ public class Mago extends OrientacaoObjetos {
    public Mago(String livro){
     super("erick");    
     this.livro ="Dark book";
+    setEstamina(100);
 }
    @Override
    public void atacar(){

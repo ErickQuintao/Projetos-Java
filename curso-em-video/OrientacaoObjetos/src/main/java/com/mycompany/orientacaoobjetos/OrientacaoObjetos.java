@@ -27,13 +27,13 @@ public class OrientacaoObjetos {
    OrientacaoObjetos(String nome){
    
         this.nome = nome; 
-         this.poder = "";
+          this.poder = "";
        this.tipo_arma ="";
        this.forca = 0;
        this.agilidade = 0;
        this.estamina = 0; 
    }
-   }
+   
       OrientacaoObjetos(String nome, String poder, String tipo_arma,
               int forca, int agilidade, int estamina){
        this.nome =nome;
@@ -54,6 +54,9 @@ public class OrientacaoObjetos {
    } 
     public String getNome(){
         return this.nome;
+    }
+    public void setEstamina(int estamina){
+        this.estamina = estamina;
     }
     public static void main(String[] args) {
     OrientacaoObjetos personagem = new OrientacaoObjetos();
